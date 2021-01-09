@@ -157,7 +157,7 @@ _Figure 38 Performance Summary of Model 2_
 
 **Test Accuracy:**
 
-![](RackMultipart20210109-4-13jfubc_html_59036d679166c3e3.png)
+![](39.png)
 
 _Figure 39 Test accuracy of model 2_
 
@@ -171,7 +171,7 @@ Both model 1 and model 2 were deployed for real time facial expression detection
 
 Model 1 performed poorly which can be seen from the screenshots below. The screenshots below show Model 1 misclassifying Anger, Sad and Surprise for Disgust, Angry and Surprise respectively
 
-![](RackMultipart20210109-4-13jfubc_html_a4ca9bd6d8ad52ae.png)
+![](40.png)
 
 _Figure 40 Realtime detected results of Model 1_
 
@@ -179,27 +179,27 @@ _Figure 40 Realtime detected results of Model 1_
 
 Model 2 performed better than expected where the misclassifications made by Model 1 were not repeated.
 
-![](RackMultipart20210109-4-13jfubc_html_94393c7d3cf16316.png)
+![](41.png)
 
 ### Model 3: FER-2013 with Random Oversampling and data-augmentation
 
 Random oversampling is another widely adopted technique for dealing with highly unbalanced datasets is called resampling. In this case, we randomly resampling existing datasets with data augmentation to solve the imbalance in dataset.
 
-![](RackMultipart20210109-4-13jfubc_html_ff6b41f6e57eec48.png)
+![](41.1.png)
 
 _Figure 41 Illustration of oversampling_
 
-![](RackMultipart20210109-4-13jfubc_html_a8fb7a39e40eb323.png)
+![](42.png)
 
 _Figure 42 Number of images in each class before and after applying Oversampling with data augmentation_
 
 **Results/Findings for Model 3:**
 
-![](RackMultipart20210109-4-13jfubc_html_463bbd012dab581e.png)
+![](43.png)
 
 _Figure 43 Loss and Accuracy plots for Model 3_
 
-![](RackMultipart20210109-4-13jfubc_html_38e9f75e5b8acd5c.png)
+![](44.png)
 
 _Figure 44 Results for Model 3_
 
@@ -220,15 +220,15 @@ This will be **the 4**** th **** experimental model** where we will be building 
 
 **Current Results :**
 
-![](RackMultipart20210109-4-13jfubc_html_7448a5490b113d22.png)
+![](45.png)
 
 _Figure 45 Accuracy and Loss plots for Model 4_
 
-![](RackMultipart20210109-4-13jfubc_html_d90bc1a03b5c0f8f.png)
+![](46.png)
 
 _Figure 46 Test accuracy of 63% for Model 4_
 
-![](RackMultipart20210109-4-13jfubc_html_51ed82f90efe2843.png)
+![](47.png)
 
 _Figure 47 Predicted results for Model 4_
 
@@ -240,11 +240,11 @@ This will be **the 5**** th **** experimental model** where we will be building 
 
 **Current Results:**
 
-![](RackMultipart20210109-4-13jfubc_html_b77bfa54f3744f71.png)
+![](48.png)
 
 _Figure 48 Accuracy and Loss plots for Model 5_
 
-![](RackMultipart20210109-4-13jfubc_html_890244a75fd5b9ee.jpg)
+![](49.jpg)
 
 _Figure 49 Low validation accuracy of Model 5_
 
@@ -260,21 +260,21 @@ As discussed in [section 3.5](#_3.5_Literature_Review), transfer learning helps 
 
 To use the VGG-Face model for our classification problem, we will be freezing the lower full connected layers to attach our own fully connected layer. Following this, we will use a smaller learning rate to then retrain the attached fully connected layer. A overview of the explanation can be seen from the figure below.
 
-![](RackMultipart20210109-4-13jfubc_html_d25c43b750a8d184.png)
+![](50.png)
 
 _Figure 50 Transfer learning overview_
 
-![](RackMultipart20210109-4-13jfubc_html_1bab2b01fc985176.png)
+![](51.png)
 
 _Figure 51 Code snippet demonstrating how I added my own fully connected layer on top of the VGG-Face model_
 
 **Current Results:**
 
-![](RackMultipart20210109-4-13jfubc_html_9c251282f7c0eaea.png)
+![](52.png)
 
 _Figure 52 Loss and Accuracy plot for Model 6_
 
-![](RackMultipart20210109-4-13jfubc_html_be552e9e19af84c.png)
+![](53.png)
 
 _Figure 53 Validation/Test Accuracy of Model 6_
 
