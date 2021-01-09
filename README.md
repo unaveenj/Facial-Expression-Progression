@@ -94,7 +94,7 @@ model.compile(optimizer =opt , loss=&#39;categorical\_crossentropy&#39; , metric
 
 The visualization of the above code snippet is as show below :
 
-![](RackMultipart20210109-4-13jfubc_html_8f21493d161b6fc3.png)
+![](33.png)
 
 _Figure 33 Architecture designed for this project based on the above code snippet_
 
@@ -106,7 +106,7 @@ For the FER-2013 we will be looking at results obtained from the three distinct 
 
 ### Model 1 : FER-2013 with unbalanced Disgust class
 
-The initial model focussed on purely using the FER-2013 dataset. As can be seen from the screenshot below the Disgust class is clearly unbalanced in comparison to other 6 classes. ![](RackMultipart20210109-4-13jfubc_html_f1b55815987d21a8.png)
+The initial model focussed on purely using the FER-2013 dataset. As can be seen from the screenshot below the Disgust class is clearly unbalanced in comparison to other 6 classes. ![](34.png)
 
 _Figure 34 Unbalanced disgust dataset_
 
@@ -114,7 +114,7 @@ Results :
 
 The results will show the loss and accuracies for both training and validation sets.
 
-![](RackMultipart20210109-4-13jfubc_html_4f72bb22392c541d.png)
+![](35.png)
 
 _Figure 35 Accuracy and Loss after using reduce learning-rate call back function_
 
@@ -130,17 +130,17 @@ _Figure 35 Accuracy and Loss after using reduce learning-rate call back function
 
 In this model data augmentation was added to increase the variety of images for the Disgust class as shown below.
 
-![](RackMultipart20210109-4-13jfubc_html_a0bc134e4a7624e.png)
+![](36.png)
 
 _Figure 36 Data Aumentation done on Disgust class to improve number of images and reduce class imbalance_
 
 **Results/Findings for Model 2:**
 
-![](RackMultipart20210109-4-13jfubc_html_cfc1a6ea729d7d59.jpg)
+![](37.jpg)
 
 _Figure 37 Results of Model 2_
 
-![](RackMultipart20210109-4-13jfubc_html_afa430a8c5f28426.png)
+![](38.png)
 
 _Figure 38 Performance Summary of Model 2_
 
