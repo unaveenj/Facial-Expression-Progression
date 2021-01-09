@@ -1,5 +1,16 @@
 # Facial-Expression-Recognition-System-Progression
 A repo to maintain the progressiveness of facial expression detection model. 
+
+# Summary of all the results obtained
+
+This section will visualise all the accuracies obtained from all the 6 distinct models from 4 different datasets as discussed in the previous section.
+
+![](54.png)
+
+_Figure 54 Summary of all six model accuracies_
+
+
+
 # Progress and Results obtained so far
 
 This section will look at the progress and results obtained through the progress over this semester.
@@ -271,10 +282,4 @@ Model 6 performed with a **test/validation accuracy of 82.5%.** This is a tremen
 
 Thus from Model 6, the need for a deeper model is required to help improve the accuracy of the model. In addition Model 6 helped in showing how beneficial is transfer learning. Therefore, for future works a well compiled dataset can be prepared using CK+,JAFFE and KDEF images and transfer learning can be applied to get a good model.
 
-# Summary of all the results obtained
 
-This section will visualise all the accuracies obtained from all the 6 distinct models from 4 different datasets as discussed in the previous section.
-
-![](RackMultipart20210109-4-13jfubc_html_7a0f9ebd5ea1e94f.png)
-
-_Figure 54 Summary of all six model accuracies_
